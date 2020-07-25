@@ -1,0 +1,239 @@
+/*эффективные решения*/
+.main-title {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $help-color;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.main-button {
+  display: block;
+  background-color: $akcent-color;
+  color: $help-color;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  &:focus {
+    outline: transparent;
+    border: 1px solid white;
+  }
+}
+
+.galery {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../img/Header.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+/* Особенности после главной картинки*/
+.features {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.features-item {
+  width: 270px;
+}
+.features-item:not(:last-child) {
+  margin-right: 30px;
+}
+.features-list {
+  display: flex;
+  justify-content: center;
+}
+.features-item {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  margin: 0;
+  text-transform: none;
+  color: $text-color;
+  font-style: 14px;
+  line-height: 25px;
+}
+.features-img-help {
+  height: 70px;
+  width: 70px;
+}
+.features-img {
+  width: 270px;
+  background-color: #f5f4fa;
+  text-align: center;
+  padding: 25px 0;
+}
+.features-title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+/*чем мы занимаемся*/
+.job {
+  padding-bottom: 95px;
+}
+.job-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.job-list li:not(:last-child) {
+  margin-right: 30px;
+}
+.job-list li {
+  width: 370px;
+}
+.job-list img {
+  display: block;
+}
+.job-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $help-color;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: rgba(47, 48, 58, 0.8);
+  margin: 0;
+}
+/*наша команда*/
+.signature {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background-color: #f5f4fa;
+}
+.team-list {
+  display: flex;
+  margin-top: 50px;
+}
+.team-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+.team-list > li {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+}
+.team-title {
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.icon-list {
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.icon-list li:not(:last-child) {
+  margin-right: 10px;
+}
+.team-list-item {
+  padding-bottom: 25px;
+}
+.team-text {
+  color: $text-color;
+  margin-bottom: 10px;
+}
+.team-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 44px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  &:hover,
+  &:focus {
+    color: $help-color;
+    background-color: $akcent-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, background-color;
+  }
+}
+
+.team-list li img {
+  display: block;
+}
+
+/*постоянные клиенты*?????????????????????????????????????????????????*/
+.brends {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.brends-list {
+  margin-top: 50px;
+  display: flex;
+  & a:hover,
+  & a:focus {
+    border-color: $akcent-color;
+    outline: transparent;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color, outline;
+  }
+  & a:hover svg {
+    fill: $akcent-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+  }
+}
+
+.brends-list a {
+  width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.brends-list li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.brends-list li:not(:last-child) {
+  margin-right: 30px;
+}

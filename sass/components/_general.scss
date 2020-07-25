@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: #e5e5e5;
+  color: #212121;
+}
+img {
+  display: block;
+  box-sizing: border-box;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+/*общие заголовки Ш-2*/
+.general-heading {
+  display: flex;
+  justify-content: center;
+  padding: o;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+.contacts-list li {
+  display: inline-flex;
+  align-items: baseline;
+  &:hover svg {
+    fill: $akcent-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+  }
+}
+.envelope {
+  width: 15px;
+  height: 10px;
+  margin-right: 10px;
+}
+.smartphone {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.contacts-list a:focus svg {
+  fill: $akcent-color;
+}
+.job-list li {
+  position: relative;
+}
+.job-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.card-list li {
+  position: relative;
+}
+.our-icon {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+}
+.brends-icon {
+  height: 45px;
+  fill: #afb1b8;
+}
+.icon-list a:hover svg,
+.icon-list a:focus svg {
+  fill: white;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+}
+.footer-icons {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}

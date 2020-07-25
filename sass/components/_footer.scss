@@ -1,0 +1,125 @@
+/*подвал*/
+.main-footer {
+  color: $help-color;
+  background-color: #2f303a;
+  padding-top: 45px;
+}
+.main-footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.secondary-logo {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.secondary-logo-help {
+  color: $akcent-color;
+}
+.main-footer-text {
+  margin: 0;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.main-footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+
+address .main-footer-list li {
+  display: block;
+}
+address .main-footer-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.text-title {
+  display: block;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+form .text-title {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.main-footer-under {
+  display: block;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.help-icon ul {
+  display: flex;
+  justify-content: space-between;
+}
+.help-icon ul li:not(:last-child) {
+  margin-right: 10px;
+}
+.help-icon ul li {
+  width: 44px;
+  line-height: 44px;
+}
+.wrapper {
+  padding-top: 10px;
+}
+.help-container {
+  padding-top: 0px;
+  width: 230px;
+  margin-right: 70px;
+  padding-bottom: 28px;
+}
+.help-icon {
+  width: 206px;
+}
+.help-form {
+  width: 570px;
+  margin-left: auto;
+}
+
+.footer-icon-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & a:hover,
+  & a:focus {
+    background-color: $akcent-color;
+    outline: transparent;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color, outline;
+  }
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  &:hover,
+  &:focus {
+    background-color: $akcent-color;
+    color: $help-color;
+    outline: transparent;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, outline, background-color;
+  }
+}
