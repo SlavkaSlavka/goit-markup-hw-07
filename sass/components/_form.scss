@@ -28,6 +28,7 @@
   cursor: pointer;
 }
 .footer-form-input {
+  width: 360px;
   box-sizing: border-box;
   line-height: 50px;
   padding: 0;
@@ -230,4 +231,11 @@
 }
 .sub {
   margin-bottom: 7px;
+}
+.main-form-wrapper textarea {
+  padding-left: 16px;
+  padding-top: 12px;
+}
+.main-form-wrapper .subscribe-label {
+  margin-left: 19px;
 }
